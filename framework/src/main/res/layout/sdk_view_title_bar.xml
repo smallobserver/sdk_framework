@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="#182022">
+
+    <ImageView
+        android:id="@+id/ivTitleBarBack"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_centerVertical="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:src="@drawable/sdk_back" />
+
+    <com.tinyblack.framework.widget.text.MediumBoldTextView
+        android:id="@+id/tvTitleBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:maxLength="16"
+        android:singleLine="true"
+        android:textColor="#F1F1F1"
+        android:textSize="17sp"
+        tools:text="标题标题标题标题标题标题标题标题标题标题" />
+
+    <ImageView
+        android:id="@+id/ivTitleBarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp" />
+</RelativeLayout>
